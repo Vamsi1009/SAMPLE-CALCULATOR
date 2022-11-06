@@ -1,0 +1,139 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1d81e6fc;
+}
+.nav-bar nav{
+    background-color: #e90d1f;
+    width:auto;
+    height: 50px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+nav input[type="search"]{
+    margin-left: 650px;
+}
+button{
+    margin-left: 5px;
+}
+li{
+    display :inline;
+    padding-inline-start: 70px;
+    padding-inline-end: 70px;
+    background-color:#ea182a;
+    color: rgb(244, 248, 238);
+}
+.vamsi{
+    width:40%;
+    background-color: rgb(180, 122, 209);
+    border: 10px;
+    border-color: rgb(16, 239, 198);
+    border-style: solid;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.vamsi{
+    display:grid;
+    
+    grid-template-columns: 50% 50%;
+
+}
+.body{
+    width: 300px;
+    height:300px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+input value[submit]{
+    margin-right: 5px;
+
+}
+.content{
+    width:300px;
+    background-color: #ffff00eb;
+    text-align: center;
+    border-radius: 5px;
+}
+.content p{
+    background-color: #ffff00eb;
+    color: rgb(25, 20, 20);
+}
+input{
+    font-size: large;
+    background-color: cornsilk;
+    text-align: center;
+    border-radius: 5px;
+    border:20px ;
+}
+h4{
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+    color:coral;
+    background-color: rgb(2, 81, 2);
+}
+input[value="submit"]{
+    background-color: #a6eaea;
+    color: #ed451b;
+    border-style: hidden;
+    font-weight: bold;
+}
+input[value="result"]{
+    width: 80px;
+    background-color: rgb(215, 225, 225);
+    color:rgb(248, 20, 20);
+
+}
+input[value="clear"]{
+    color:red;
+    background-color:rgb(228, 228, 203);
+    font-weight: bold;
+    border-bottom-color: #ed451b;
+}
+input[name="number"]{
+    background-color: rgb(42, 42, 150);
+    color:whitesmoke;
+    width: 200px;
+    height: 30px;
+
+
+}
+input[name="number2"]{
+    color:whitesmoke;
+    background-color: rgb(42, 42, 136);
+    width: 200px;
+    height:35px
+}
+input[name="operator"]{
+    background-color: #8b2831;
+    width:200px;
+    height:25px;
+    color:white;
+}
+input[name="operator"]:hover{
+    color:rgb(24, 16, 235);
+    font-weight:bold;
+    background-color:rgb(237, 237, 238);
+}
+
+input[name="menu"]{
+    border-radius:5px;
+    border-color: #a6eaea;
+    background-color: rgb(237, 237, 237);
+    color: black;
+}
+input[type="button"]{
+    background-color: rgb(23, 197, 245);
+    border-radius: 5px;
+    color: rgb(210, 207, 207);
+}
+.nav-bar li{
+    font-weight:bold;
+    font-style: italic;
+    
+}
+.nav-bar nav li:hover{
+    color: rgb(174, 228, 26);
+}
